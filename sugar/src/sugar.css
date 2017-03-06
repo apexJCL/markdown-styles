@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Quicksand");
+.sugar {
+  margin: 20px 15%; }
+  @media screen and (max-width: 960px) {
+    .sugar {
+      margin: 20px 0; } }
+  .sugar h1, .sugar h2, .sugar h3, .sugar h4, .sugar h5, .sugar h6 {
+    color: #00BCD4;
+    font-family: 'Quicksand', sans-serif; }
+  .sugar p {
+    color: #424242;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3rem;
+    -webkit-columns: 1 200px;
+    -moz-columns: 1 200px;
+    columns: 1 200px;
+    line-height: 1.56rem;
+    font-family: 'Lato', sans-serif; }
+  .sugar blockquote {
+    background-color: rgba(0, 225, 255, 0.3);
+    border-left: solid thick #00bcd4; }
+    .sugar blockquote p {
+      color: #8A8A8A; }
+  .sugar pre {
+    font-size: 1.157rem;
+    font-family: 'Fira Mono', monospace;
+    line-height: 140%;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    padding: 0;
+    border-radius: 0; }
+  .sugar img {
+    padding: 30px 0;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto; }
+
+.sugar-fluid {
+  max-width: inherit; }
+  .sugar-fluid h1, .sugar-fluid h2, .sugar-fluid h3, .sugar-fluid h4, .sugar-fluid h5, .sugar-fluid h6 {
+    color: #00BCD4;
+    font-family: 'Quicksand', sans-serif; }
+  .sugar-fluid p {
+    color: #424242;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3rem;
+    -webkit-columns: 1 200px;
+    -moz-columns: 1 200px;
+    columns: 1 200px;
+    line-height: 1.56rem;
+    font-family: 'Lato', sans-serif; }
+  .sugar-fluid blockquote {
+    background-color: rgba(0, 225, 255, 0.3);
+    border-left: solid thick #00bcd4; }
+    .sugar-fluid blockquote p {
+      color: #8A8A8A; }
+  .sugar-fluid pre {
+    font-size: 1.157rem;
+    font-family: 'Fira Mono', monospace;
+    line-height: 140%;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    padding: 0;
+    border-radius: 0; }
+  .sugar-fluid img {
+    padding: 30px 0;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto; }
+
+/*# sourceMappingURL=sugar.css.map */
