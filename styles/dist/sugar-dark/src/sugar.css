@@ -11,20 +11,20 @@
     color: #f5f5f5;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 1rem;
+    font-size: 1em;
     -webkit-columns: 1 200px;
     -moz-columns: 1 200px;
     columns: 1 200px;
-    line-height: 1.2rem;
+    line-height: 1.2em;
     font-family: 'Lato', sans-serif; }
   .sugar-fluid blockquote, .sugar blockquote {
-    padding: 1rem 1rem;
+    padding: 1em 1em;
     background-color: #0277BD;
     border-left: solid thick #00E5FF; }
     .sugar-fluid blockquote p, .sugar blockquote p {
       color: #ffffff; }
   .sugar-fluid pre, .sugar pre {
-    font-size: 0.89rem;
+    font-size: 0.89em;
     font-family: 'Fira Mono', monospace;
     line-height: 140%;
     white-space: pre-wrap;

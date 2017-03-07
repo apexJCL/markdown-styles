@@ -7,7 +7,7 @@ $blockquote-text-color: #ffffff;
 $blockquote-background-color: #0277BD; // Google Light Blue 800
 $blockquote-border-color: #00bcd4;
 
-$font-size-base: 1rem;
+$font-size-base: 1em;
 $line-height: $font-size-base * 1.2;
 $font-code-size: $font-size-base * 0.89;
 
@@ -22,5 +22,5 @@ $box-shadow-color: #8a8a8a;
 
 $smallscreen: 960px;
 
-$blockquote-padding-left-right: 1rem;
-$blockquote-padding-top-bottom: 1rem;
+$blockquote-padding-left-right: 1em;
+$blockquote-padding-top-bottom: 1em;
