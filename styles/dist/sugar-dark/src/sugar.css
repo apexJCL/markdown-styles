@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Quicksand");
+.sugar-fluid, .sugar {
+  max-width: inherit; }
+  .sugar-fluid h1, .sugar h1, .sugar-fluid h2, .sugar h2, .sugar-fluid h3, .sugar h3, .sugar-fluid h4, .sugar h4, .sugar-fluid h5, .sugar h5, .sugar-fluid h6, .sugar h6 {
+    color: #03A9F4;
+    font-family: 'Quicksand', sans-serif; }
+  .sugar-fluid a, .sugar a {
+    color: #00E5FF;
+    text-decoration: none; }
+  .sugar-fluid p, .sugar p {
+    color: #f5f5f5;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1rem;
+    -webkit-columns: 1 200px;
+    -moz-columns: 1 200px;
+    columns: 1 200px;
+    line-height: 1.2rem;
+    font-family: 'Lato', sans-serif; }
+  .sugar-fluid blockquote, .sugar blockquote {
+    padding: 1rem 1rem;
+    background-color: #0277BD;
+    border-left: solid thick #00E5FF; }
+    .sugar-fluid blockquote p, .sugar blockquote p {
+      color: #ffffff; }
+  .sugar-fluid pre, .sugar pre {
+    font-size: 0.89rem;
+    font-family: 'Fira Mono', monospace;
+    line-height: 140%;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    padding: 0;
+    border-radius: 0; }
+  .sugar-fluid img, .sugar img {
+    padding: 30px 0;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto; }
+  .sugar-fluid ul, .sugar ul, .sugar-fluid li, .sugar li {
+    color: #f5f5f5; }
+
+.sugar {
+  margin: 20px 20%; }
+  @media screen and (max-width: 960px) {
+    .sugar {
+      margin: 20px 0; } }
+
+/*# sourceMappingURL=sugar.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "markdown_styles",
+  "description": "Markdown Styles for beauty pages",
+  "main": "",
+  "authors": [
+    "José Carlos López <jcl.isc@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "css",
+    "style"
+  ],
+  "homepage": "https://github.com/apexJCL/markdown-styles",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
