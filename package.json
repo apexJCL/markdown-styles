@@ -8,8 +8,8 @@
     "node-sass": "^4.5.0"
   },
   "scripts": {
-    "web": "node-sass styles/ -o build/ & live-server",
-    "dist": "node-sass styles/ -o build/",
+    "web": "node-sass styles/ -o build/ --output-style compressed & live-server",
+    "dist": "node-sass styles/ -o build/ --output-style compressed",
     "dev": "node-sass styles/ -o build/ -w | node dev.js"
   },
   "main": "main.js",
