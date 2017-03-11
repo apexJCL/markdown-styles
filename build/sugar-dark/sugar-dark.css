@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Quicksand");
+.markdown-styles-fluid, .markdown-styles {
+  max-width: inherit;
+  background-color: #37474F; }
+  .markdown-styles-fluid h1, .markdown-styles h1, .markdown-styles-fluid h2, .markdown-styles h2, .markdown-styles-fluid h3, .markdown-styles h3, .markdown-styles-fluid h4, .markdown-styles h4, .markdown-styles-fluid h5, .markdown-styles h5, .markdown-styles-fluid h6, .markdown-styles h6 {
+    color: #03A9F4;
+    font-family: 'Quicksand', sans-serif; }
+  .markdown-styles-fluid a, .markdown-styles a {
+    color: #00E5FF;
+    text-decoration: none; }
+  .markdown-styles-fluid p, .markdown-styles p {
+    color: #f5f5f5;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1em;
+    -webkit-columns: 1 200px;
+    -moz-columns: 1 200px;
+    columns: 1 200px;
+    line-height: 1.2em;
+    font-family: 'Lato', sans-serif; }
+  .markdown-styles-fluid blockquote, .markdown-styles blockquote {
+    font-family: 'Lato', sans-serif;
+    padding: 1em 1em;
+    color: #ffffff;
+    background-color: #0277BD;
+    border-left: solid thick #00E5FF; }
+    .markdown-styles-fluid blockquote p, .markdown-styles blockquote p {
+      color: #ffffff; }
+  .markdown-styles-fluid pre, .markdown-styles pre {
+    font-size: 0.89em;
+    font-family: 'Fira Mono', monospace;
+    line-height: 140%;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    padding: 0;
+    border-radius: 0; }
+  .markdown-styles-fluid img, .markdown-styles img {
+    padding: 30px 0;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto; }
+  .markdown-styles-fluid ul, .markdown-styles ul, .markdown-styles-fluid li, .markdown-styles li {
+    font-family: 'Lato', sans-serif;
+    color: #f5f5f5; }
+  .markdown-styles-fluid iframe, .markdown-styles iframe {
+    padding: 30px 0;
+    width: 90%;
+    height: 540px;
+    display: block;
+    margin: auto; }
+  .markdown-styles-fluid th, .markdown-styles th {
+    padding: 1em;
+    background-color: #00E5FF;
+    font-family: 'Quicksand', serif; }
+  .markdown-styles-fluid td, .markdown-styles td {
+    padding: 1em;
+    border-bottom: 1px solid #FFFFFF; }
+
+.markdown-styles {
+  margin: 20px 20%; }
+  @media screen and (max-width: 960px) {
+    .markdown-styles {
+      margin: 20px 0; } }
