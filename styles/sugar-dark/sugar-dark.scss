@@ -30,7 +30,9 @@
   }
 
   blockquote {
+    font-family: 'Lato', sans-serif;
     padding: $blockquote-padding-top-bottom $blockquote-padding-left-right;
+    color: $blockquote-text-color;
     p {
       color: $blockquote-text-color;
     }
@@ -58,8 +60,33 @@
   }
 
   ul, li {
+    font-family: 'Lato', sans-serif;
     color: $text-color;
   }
+
+  iframe {
+    padding: $img-padding-top-bottom 0;
+    width: 90%;
+    height: 540px;
+    display: block;
+    margin: auto;
+  }
+
+  table {
+
+  }
+
+  th {
+    padding: $table-padding;
+    background-color: $accent-color;
+    font-family: 'Quicksand', serif;
+  }
+
+  td {
+    padding: $table-padding;
+    border-bottom: 1px solid $table-border-color;
+  }
+
 }
 
 .markdown-styles {

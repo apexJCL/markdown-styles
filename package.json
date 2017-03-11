@@ -3,10 +3,13 @@
   "description": "Markdown Styles for beauty pages",
   "version": "0.0.1",
   "devDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "live-server": "^1.2.0"
   },
   "scripts": {
-    "http": "./node_modules/.bin/http-server . -o"
+    "web": "./node_modules/.bin/http-server . -o",
+    "dist": "./node_modules/.bin/node-sass styles/ -o build/",
+    "dev": "./node_modules/.bin/node-sass styles/ -o build/ -w | node dev.js"
   },
   "main": "main.js",
   "dependencies": {
