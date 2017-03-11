@@ -1,0 +1,71 @@
+@import "variables";
+@import "fonts";
+
+.markdown-styles-fluid {
+
+  max-width: inherit;
+
+  background-color: $background-color;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary-color;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  a {
+    color: $accent-color;
+    text-decoration: none;
+  }
+
+  p {
+    color: $text-color;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: $font-size-base;
+    -webkit-columns: 1 200px;
+    -moz-columns: 1 200px;
+    columns: 1 200px;
+    line-height: $line-height;
+    font-family: 'Lato', sans-serif;
+  }
+
+  blockquote {
+    padding: $blockquote-padding-top-bottom $blockquote-padding-left-right;
+    p {
+      color: $blockquote-text-color;
+    }
+    background-color: $blockquote-background-color;
+    border-left: solid thick $accent-color;
+  }
+
+  pre {
+    font-size: $font-code-size;
+    font-family: 'Fira Mono', monospace;
+    line-height: 140%;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  img {
+    padding: $img-padding-top-bottom 0;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  ul, li {
+    color: $text-color;
+  }
+}
+
+.markdown-styles {
+  @extend .markdown-styles-fluid;
+  margin: $margin-top-bottom $margin-left-right;
+  @media screen and (max-width: $smallscreen) {
+    margin: $margin-top-bottom 0;
+  }
+}

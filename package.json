@@ -3,10 +3,33 @@
   "description": "Markdown Styles for beauty pages",
   "version": "0.0.1",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt": "~0.4.5"
+  },
+  "scripts": {
+    "http": "./node_modules/.bin/http-server . -o"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "grunt-contrib-uglify": "~0.5.0",
+    "commonmark": "^0.27.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-uglify": "~0.5.0"
-  }
+    "http-server": "^0.9.0",
+    "node-sass": "^4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apexJCL/markdown-styles.git"
+  },
+  "keywords": [
+    "markdown",
+    "styles",
+    "sass",
+    "awesome"
+  ],
+  "author": "José Carlos López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apexJCL/markdown-styles/issues"
+  },
+  "homepage": "https://github.com/apexJCL/markdown-styles#readme"
 }
