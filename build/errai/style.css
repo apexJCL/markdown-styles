@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Lora");
+.markdown-styles-fluid, .markdown-styles {
+  color: #607D8B;
+  background-color: #FAFAFA;
+  max-width: inherit;
+  font-family: 'Lora', sans-serif; }
+  .markdown-styles-fluid h1, .markdown-styles h1, .markdown-styles-fluid h2, .markdown-styles h2, .markdown-styles-fluid h3, .markdown-styles h3, .markdown-styles-fluid h4, .markdown-styles h4, .markdown-styles-fluid h5, .markdown-styles h5, .markdown-styles-fluid h6, .markdown-styles h6 {
+    color: #37474F;
+    font-family: 'Crimson Text', serif; }
+  .markdown-styles-fluid a, .markdown-styles a {
+    text-decoration: none;
+    font-weight: 800; }
+  .markdown-styles-fluid ul, .markdown-styles ul {
+    list-style-type: circle; }
+  .markdown-styles-fluid p, .markdown-styles p {
+    max-width: 100%;
+    text-justify: inter-word;
+    text-align: justify; }
+  .markdown-styles-fluid blockquote, .markdown-styles blockquote {
+    max-width: 100%;
+    color: #607D8B;
+    background-color: #EDE7F6;
+    padding: 10px 10px 10px 5%;
+    box-shadow: 0 0 5px #D1C4E9; }
+  .markdown-styles-fluid img, .markdown-styles img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
+  .markdown-styles-fluid table, .markdown-styles table, .markdown-styles-fluid tbody, .markdown-styles tbody {
+    display: block;
+    width: 100%;
+    margin: 0 auto; }
+  .markdown-styles-fluid tr, .markdown-styles tr {
+    width: 100%; }
+
+.markdown-styles {
+  margin: 10px 30%; }
+  @media screen and (max-width: 960px) {
+    .markdown-styles {
+      margin: 10px 5%; } }

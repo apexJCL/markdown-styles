@@ -1,2 +1,64 @@
 @import "variables";
 @import "fonts";
+
+.markdown-styles-fluid {
+
+  color: $text-color;
+  background-color: $background-color;
+  max-width: inherit;
+  font-family: 'Lora', sans-serif;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $accent-color;
+    font-family: 'Crimson Text', serif;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  p {
+    max-width: $p-max-width;
+    text-justify: inter-word;
+    text-align: justify;
+  }
+
+  blockquote {
+    max-width: $p-max-width;
+    color: $text-color;
+    background-color: $blockquote-background-color;
+    padding: $blockquote-padding-top-bottom $blockquote-padding-right $blockquote-padding-top-bottom $blockquote-padding-left;
+    box-shadow: 0 0 $blockquote-blur-amount $blockquote-blur-color;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  table, tbody {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  tr {
+    width: 100%;
+  }
+
+
+}
+
+.markdown-styles {
+  @extend .markdown-styles-fluid;
+  margin: $margin-top-bottom $margin-left-right;
+  @media screen and (max-width: $smallscreen) {
+    margin: $margin-top-bottom $margin-left-right-small;
+  }
+}

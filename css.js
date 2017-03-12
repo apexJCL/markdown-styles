@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
         case "sugar-dark":
             changeCSS('sugar-dark/sugar-dark.css');
             break;
+        case "errai":
+            changeCSS('errai/style.css');
+            break;
     }
 });
 
