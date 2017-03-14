@@ -2,6 +2,7 @@ $primary-color: #00BCD4; // Google Cyan 500
 $secondary-color: #03A9F4; // Google Light Blue 500
 $accent-color: #00E5FF; // Google Cyan A400
 $text-color: #424242; // Google Grey 800
+$table-striped-color: #E1F5FE;
 
 $blockquote-text-color: #8A8A8A;
 $blockquote-background-color: rgba(0, 225, 255, 0.3);
@@ -24,3 +25,11 @@ $smallscreen: 960px;
 
 $blockquote-padding-left-right: 1em;
 $blockquote-padding-top-bottom: 1em;
+
+$table-height: 50px;
+$table-padding-left-right: 10%;
+$table-padding-top-bottom: 5%;
+
+$table-data-height: 40px;
+
+$th-padding-left-right: 10px;
