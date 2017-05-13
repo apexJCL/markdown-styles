@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300,400");
+.markdown-styles-fluid h1, .markdown-styles h1, .markdown-styles-fluid h2, .markdown-styles h2, .markdown-styles-fluid h3, .markdown-styles h3, .markdown-styles-fluid h4, .markdown-styles h4, .markdown-styles-fluid h5, .markdown-styles h5, .markdown-styles-fluid h6, .markdown-styles h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #03A9F4; }
+
+.markdown-styles-fluid a, .markdown-styles a {
+  font-family: "Roboto", sans-serif;
+  color: #FF1744; }
+
+.markdown-styles-fluid p, .markdown-styles p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #37474F; }
+
+.markdown-styles {
+  margin: 0 10% 0 10%; }

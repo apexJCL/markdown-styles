@@ -1,0 +1,29 @@
+@import "fonts";
+@import "variables";
+
+
+.markdown-styles-fluid {
+
+  h1, h2, h3 ,h4 ,h5 ,h6 {
+    font-family: $font_family;
+    font-weight: $font_weight--headings;
+    color: $color_primary;
+  }
+
+  a {
+    font-family: $font_family;
+    color: $color_accent;
+  }
+
+  p {
+    font-family: $font_family;
+    font-weight: $font_weight--paragraphs;
+    color: $color_text;
+  }
+
+}
+
+.markdown-styles {
+  @extend .markdown-styles-fluid;
+  margin: $margin_top $margin_left $margin_bottom $margin_right;
+}

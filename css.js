@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
         case "errai":
             changeCSS('errai/style.css');
             break;
+        case "material":
+            changeCSS('material/style.css');
+            break;
     }
 });
 
