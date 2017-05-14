@@ -2,13 +2,29 @@ $color_primary: #03A9F4;
 $color_secondary: #673AB7;
 $color_accent: #FF1744;
 $color_text: #37474F;
+$color_img_height: rgba(0, 0, 0, 0.8);
 
 $font_size: 1em;
 $font_line-height: $font-size * 1.2;
 $font_weight--headings: 100;
 $font_weight--paragraphs: 500;
 
+// Margins
+
 $margin_top: 0;
 $margin_bottom: 0;
 $margin_left: 10%;
 $margin_right: 10%;
+
+$li_margin-top: 10px;
+$li_margin-bottom: 10px;
+
+$margin_blockquoute--top: 10px;
+$margin_blockquoute--bottom: 10px;
+$margin_blockquoute--left: 25px;
+$margin_blockquoute--right: 25px;
+
+$padding_blockquoute: 10px;
+
+$blur_img_shadow: 20px;
+$blur_img_shadow--spread-radius: 2px;

@@ -12,13 +12,42 @@
 
   a {
     font-family: $font_family;
-    color: $color_accent;
+    color: $color_secondary;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px $blur_img_shadow $blur_img_shadow--spread-radius $color_img_height;
+  }
+
+  blockquote {
+    margin-top: $margin_blockquoute--top;
+    margin-left: $margin_blockquoute--left;
+    margin-right: $margin_blockquoute--right;
+    margin-bottom: $margin_blockquoute--bottom;
+    padding: $padding_blockquoute;
+    font-family: $font_family;
+    color: $color_text;
   }
 
   p {
     font-family: $font_family;
     font-weight: $font_weight--paragraphs;
     color: $color_text;
+  }
+
+  ul {
+    list-style-type: none;
+    & a {
+      text-decoration: none;
+    }
+  }
+
+  li {
+    margin-top: $li_margin-top;
+    margin-bottom: $li_margin-bottom;
   }
 
 }
