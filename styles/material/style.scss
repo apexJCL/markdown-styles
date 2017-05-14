@@ -32,6 +32,15 @@
     color: $color_text;
   }
 
+  code {
+    background-color: $color_code--background;
+  }
+
+  pre {
+    background-color: $color_code--background;
+    padding: $padding_pre;
+  }
+
   p {
     font-family: $font_family;
     font-weight: $font_weight--paragraphs;
